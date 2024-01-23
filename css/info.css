@@ -111,6 +111,7 @@
   top: 1rem;
   right: 0;
 }
+
 /* pr */
 .pr {
   width: 40%;
@@ -201,6 +202,19 @@
   #pr02 .swiper-pagination {
     left: 87%;
   }
+
+  .noticeBtn::after {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 1.1rem;
+    right: -1rem;
+    transform: rotate(-30deg);
+    background-image: url(../img/cursor.svg);
+    background-position: center;
+    background-size: cover;
+  }
 }
 @media screen and (max-width: 450px) {
   .info {
@@ -261,18 +275,7 @@
     top: 1.5rem;
     right: 5%;
   }
-  .noticeBtn::after {
-    content: "";
-    width: 1.5rem;
-    height: 1.5rem;
-    position: absolute;
-    top: 1.1rem;
-    right: -1rem;
-    transform: rotate(-30deg);
-    background-image: url(../img/cursor.svg);
-    background-position: center;
-    background-size: cover;
-  }
+
   .pr {
     width: 95%;
     border-radius: 1.875rem 0 0 1.875rem;

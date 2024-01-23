@@ -10,6 +10,18 @@
   position: relative;
   display: none;
 }
+.headerNavi::after {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 0rem;
+  right: -1.5rem;
+  transform: rotate(-50deg);
+  background-image: url(../img/cursor.svg);
+  background-position: center;
+  background-size: cover;
+}
 .headerNavi span {
   width: 100%;
   height: 0.2rem;
@@ -125,6 +137,7 @@
   }
   .headerNavi {
     display: block;
+    cursor: pointer;
   }
   .headerTop ul li {
     padding: 0 1rem;
