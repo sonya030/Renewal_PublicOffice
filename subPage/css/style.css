@@ -359,7 +359,7 @@ body {
 /* infopage */
 .infoPage {
   width: 100%;
-  height: 1000px;
+  height: 1100px;
   box-sizing: border-box;
   position: relative;
 }
@@ -571,6 +571,7 @@ body {
   text-align: center;
   border-right: 1px dotted var(--gray05);
   border-bottom: 1px solid var(--secondary-color01);
+  vertical-align: middle;
 }
 
 #my-table tbody tr td:nth-child(2) {
@@ -982,4 +983,3 @@ body {
   background-size: contain;
   background-position: center;
 }
-
