@@ -4,6 +4,8 @@ let noticeContent = document.querySelectorAll(".noticeCon div");
 console.log(targetTab, noticeContent);
 document.getElementById("notice01").style.display = "block";
 
+targetTab[0].classList.add("active");
+
 for (let i = 0; i < targetTab.length; i++) {
   targetTab[i].addEventListener("click", function (e) {
     e.preventDefault();
@@ -24,6 +26,7 @@ let prTabs = document.querySelectorAll(".prTab li a");
 let prContent = document.querySelectorAll(".prCon .prInner");
 console.log(prTabs, prContent);
 document.getElementById("pr01").style.display = "block";
+prTabs[0].classList.add("active");
 
 for (let k = 0; k < prTabs.length; k++) {
   prTabs[k].addEventListener("click", function (f) {
