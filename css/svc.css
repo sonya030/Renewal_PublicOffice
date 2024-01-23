@@ -1,0 +1,148 @@
+@import url("https://cdn.jsdelivr.net/gh/webfontworld/SaenggeoJincheon/SaenggeoJincheon.css");
+
+.svc {
+}
+.svc_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+  position: relative;
+}
+.svcTitle {
+  width: 20%;
+  font-family: "SaenggeoJincheon";
+}
+.svcTitle h3 {
+  font-size: 3.125rem;
+  line-height: 4.54rem;
+}
+.svcTitle a img {
+  transition: 0.5s;
+}
+.svcTitle a img:hover {
+  transform: translateX(1rem);
+}
+.svcCon {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contents {
+  position: relative;
+}
+.contents a {
+}
+.contents a img {
+  width: 10rem;
+}
+.contents a img:hover {
+  animation: icon 1s infinite alternate;
+}
+@keyframes icon {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+.contents a h5 {
+  text-align: center;
+  color: #626262;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+.contents a .circle {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 7rem;
+  background-color: #dfeec2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.svcBg {
+  position: absolute;
+  top: 3%;
+  left: -10%;
+  z-index: -1;
+}
+.svcBg img {
+  width: 20rem;
+}
+
+/* 반응형 */
+@media screen and (max-width: 780px) {
+  .svc_inner {
+    flex-direction: column;
+  }
+  .svcTitle {
+    width: 100%;
+  }
+  .svcTitle h3 {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+  }
+  .svcTitle a img {
+    display: none;
+  }
+  .svcCon {
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 4rem;
+  }
+  .contents {
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 4rem;
+  }
+  .contents a {
+    padding-left: 1.3rem;
+  }
+  .contents a img {
+    width: 80%;
+    margin: auto;
+  }
+  .contents a h5 {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .contents a .circle {
+    right: 15%;
+  }
+  .svcCon05 {
+    display: none;
+  }
+  .svcBg {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .svcCon {
+    display: block;
+    margin: 1.5rem auto;
+  }
+  .contents {
+    width: 100%;
+  }
+  .contents a {
+  }
+  .contents a img {
+    width: 70%;
+    padding-left: 7%;
+  }
+  .contents a h5 {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .contents a .circle {
+  }
+}

@@ -1,0 +1,132 @@
+.nav {
+  position: relative;
+}
+.nav_inner {
+  height: 3.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navi {
+  height: 100%;
+}
+.navTitle {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navTitle li {
+  width: 14rem;
+  height: inherit;
+  position: relative;
+  box-sizing: border-box;
+}
+.navTitle li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--gray04);
+  font-weight: 700;
+}
+.navTitle li a:hover {
+  color: #556b2f;
+  font-weight: 900;
+}
+.navTitle .goSubpage {
+  color: #8fbc8f;
+  position: relative;
+}
+.navTitle .goSubpage::after {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  transform: rotate(-30deg);
+  background-image: url(../img/cursor.svg);
+  background-position: center;
+  background-size: cover;
+}
+.navCon {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  margin: auto;
+  left: 0;
+}
+.navi:hover .navCon {
+  height: 270px;
+  z-index: 5;
+}
+.navCon ul {
+  width: 14rem;
+  background-color: #f5fff5;
+  padding: 1rem 0;
+}
+.navCon ul:hover {
+  background-color: #fff;
+}
+.navCon ul li:hover {
+  background-color: #8fbc8f;
+}
+.navCon ul li a {
+  display: block;
+  color: var(--gray04);
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+}
+.navCon ul li a:hover {
+  color: #fff;
+  font-weight: 600;
+}
+
+.siteMap {
+  width: 2rem;
+  height: 1.5rem;
+  position: absolute;
+  right: 10%;
+}
+
+.siteMap_btn {
+  width: inherit;
+  height: inherit;
+  box-sizing: border-box;
+  position: relative;
+}
+.siteMap_btn span {
+  width: 100%;
+  height: 0.25rem;
+  border-radius: 0.2rem;
+  background: var(--gray04);
+  position: absolute;
+}
+.siteMap_btn span:nth-child(1) {
+  top: 0;
+}
+.siteMap_btn span:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.siteMap_btn span:nth-child(3) {
+  bottom: 0;
+}
+
+/* 미디어 */
+@media screen and (max-width: 780px) {
+  .nav {
+    display: none;
+  }
+}

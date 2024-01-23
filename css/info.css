@@ -1,0 +1,314 @@
+.info {
+  width: 100%;
+  max-width: 1980px;
+  background-color: #f5f5dc;
+  background-image: url(../img/koreanTraditionalBG.png);
+  background-blend-mode: luminosity;
+  background-size: cover;
+}
+.info_inner h4 {
+  font-family: "SaenggeoJincheon";
+  font-size: 2.75rem;
+  text-align: center;
+  padding: 3rem 0;
+}
+.infoWrap {
+  width: 100%;
+  border-radius: 0 7.5rem 0 0;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.6);
+  padding: 5% 0;
+  display: flex;
+  justify-content: space-around;
+}
+/* notice */
+.notice {
+  width: 40%;
+  position: relative;
+}
+
+.noticeTab {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  border-bottom: 1px solid #99b463;
+}
+.noticeTab li {
+}
+.noticeTab li a {
+  font-weight: 600;
+  color: #525252;
+  padding: 0.7rem 0;
+  box-sizing: border-box;
+}
+.noticeTab li a:hover {
+  color: #000;
+}
+/* active */
+.noticeTab li a.active {
+  border-bottom: 3px solid #556b2f;
+}
+.noticeCon {
+}
+.noticeCon div {
+  display: none;
+  margin-top: 0.5rem;
+}
+.noticeCon div ul li {
+  transition: 0.5s;
+}
+.noticeCon div ul li:hover {
+  background: #f5f5dc;
+}
+.noticeCon div ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  font-size: 0.875rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.noticeCon div ul li:last-child a {
+  border: none;
+}
+.noticeCon div ul li a .field {
+  width: 15%;
+  padding: 0.8rem 0;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 0.5rem 1.5rem 1.5rem 0;
+  color: #fff;
+}
+#notice01 ul li a .field {
+  background-color: #556b2f;
+}
+#notice02 ul li a .field {
+  background-color: #525252;
+}
+.noticeCon div ul li a .conTitle {
+  width: 60%;
+  height: 1rem;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #525252;
+}
+.noticeCon div ul li a .date {
+  width: 15%;
+  text-align: right;
+  font-weight: 200;
+  color: #99b463;
+}
+#notice03 ul li a .date {
+  padding: 0.8rem 0;
+}
+.noticeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 0;
+}
+/* pr */
+.pr {
+  width: 40%;
+}
+.prTab {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  border-bottom: 1px solid #99b463;
+}
+.prTab li a {
+  font-weight: 600;
+  color: #525252;
+  padding: 0.7rem 0;
+  box-sizing: border-box;
+}
+.prTab li a.active {
+  border-bottom: 3px solid #556b2f;
+}
+.prCon .prInner {
+  display: none;
+  margin-top: 0.5rem;
+}
+#pr02 {
+  width: 100%;
+}
+#pr02 .prSwiper {
+  width: 100%;
+  margin: 0;
+}
+#pr02 .prSwiper .swiper-wrapper {
+  margin: 0;
+}
+#pr02 .prSwiper .swiper-wrapper .swiper-slide {
+  margin: 0;
+}
+#pr02 .prSwiper .swiper-wrapper .swiper-slide a {
+}
+#pr02 .prSwiper .swiper-wrapper .swiper-slide a img {
+  width: 100%;
+}
+
+#pr02 .swiper-pagination {
+  width: 3rem;
+  top: 3%;
+  left: 90%;
+}
+#pr02 .swiper-pagination-bullet {
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.6);
+  opacity: 0.5 !important;
+}
+#pr02 .swiper-pagination-bullet-active {
+  opacity: 1 !important;
+}
+/* 반응형 */
+@media screen and (max-width: 780px) {
+  .info {
+    background-image: none;
+  }
+  .infoWrap {
+    border-radius: 0 3.125rem 0 0;
+    padding: 10% 0;
+    flex-wrap: wrap;
+  }
+  .notice {
+    width: 80%;
+  }
+  .noticeCon div ul li a .field {
+    width: 20%;
+    font-size: 0.8rem;
+  }
+  .noticeCon div ul li a .conTitle {
+    width: 50%;
+  }
+  #notice03 ul li a .conTitle {
+    width: 70%;
+  }
+  .noticeCon div ul li a .date {
+    width: 20%;
+  }
+  .pr {
+    margin-top: 1rem;
+    width: 80%;
+  }
+  #pr02 .swiper-pagination {
+    left: 87%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .info {
+    height: 45rem;
+    position: relative;
+  }
+  .info_inner h4 {
+    width: 85%;
+    margin: auto;
+    font-size: 2.3rem;
+    padding: 2rem 0;
+  }
+  .infoWrap {
+    background: none;
+    box-shadow: none;
+    padding: 0;
+  }
+  .notice {
+    width: 95%;
+    border-radius: 0 1.875rem 1.875rem 0;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.4);
+    padding: 0.5rem 1.3rem 1rem 2rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 11rem;
+    left: 0;
+    animation: ntc 3s;
+  }
+  @keyframes ntc {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .noticeTab li a {
+    font-size: 0.875rem;
+  }
+  .noticeCon div ul li a {
+    font-size: 0.75rem;
+  }
+  .noticeCon div ul li a .field {
+    padding: 0.5rem 0;
+  }
+  .noticeCon div ul li:nth-child(3) a,
+  .noticeCon div ul li:nth-child(4) a {
+    display: none;
+  }
+  .noticeCon div ul li a .date {
+    width: 25%;
+  }
+  #notice03 ul li a .date {
+    padding: 0.5rem 0;
+  }
+  .noticeBtn {
+    top: 1.5rem;
+    right: 5%;
+  }
+  .noticeBtn::after {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 1.1rem;
+    right: -1rem;
+    transform: rotate(-30deg);
+    background-image: url(../img/cursor.svg);
+    background-position: center;
+    background-size: cover;
+  }
+  .pr {
+    width: 95%;
+    border-radius: 1.875rem 0 0 1.875rem;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.4);
+    padding: 0 2rem 1.5rem 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 3rem;
+    right: 0;
+    animation: pr 3s;
+  }
+
+  @keyframes pr {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .prCon {
+    height: 10rem;
+  }
+  .prCon .prInner .prSwiper .swiper-wrapper .swiper-slide a img {
+    height: 10rem;
+    box-sizing: border-box;
+  }
+  #pr01 video {
+    height: 10rem;
+    background-color: #000;
+  }
+  #pr02 .prSwiper .swiper-wrapper .swiper-slide a img {
+    background-color: #fbc44d;
+  }
+  #pr02 .swiper-pagination {
+    left: 85%;
+  }
+}

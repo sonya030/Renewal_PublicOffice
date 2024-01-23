@@ -1,0 +1,167 @@
+.db_inner {
+  position: relative;
+}
+.dbMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dbCon {
+  display: flex;
+}
+.dbCon li {
+  width: 9.6rem;
+  box-sizing: border-box;
+  border-right: 1px solid lightgray;
+}
+.dbCon li:last-child {
+  border: none;
+}
+.dbCon li a {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #757575;
+  text-align: center;
+  box-sizing: border-box;
+}
+.dbCon li a:hover {
+  color: #333;
+}
+.dbBtn {
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #757575;
+  background-image: url(../img/dbBtn.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.dbSearch {
+  width: inherit;
+  height: 8.25rem;
+  box-sizing: border-box;
+  padding: 1rem 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  position: relative;
+  position: absolute;
+  bottom: 4.5rem;
+  z-index: 10;
+}
+.dbSearch strong {
+  color: #fff;
+  font-weight: 600;
+}
+.dbGo {
+  width: 43.25rem;
+  height: 3.25rem;
+  border-radius: 3.25rem;
+  margin: 1rem auto;
+  background-color: #fff;
+  box-shadow: inset 0 0 4px gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.dbGo:hover {
+  box-shadow: inset 0 0 4px gray, 0 0 5px #000;
+}
+.dbGo input {
+  width: 90%;
+  height: 90%;
+  padding: 0 1rem;
+  border: none;
+  background-color: #ffffff00;
+  outline: none;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.dbGo .magnify {
+  width: 10%;
+  height: inherit;
+  position: relative;
+}
+.dbGo .magnify img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dbSearch .dbClose {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../img/dbClose.svg);
+  background-size: cover;
+  position: absolute;
+  top: 10%;
+  right: 1.8%;
+}
+@media screen and (max-width: 780px) {
+  .db {
+    width: 100%;
+    background-color: #757575;
+    background-image: url(../img/koreanTraditionalBG.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
+  .db_inner {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .dbCon {
+    width: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+  }
+  .dbBtn {
+    display: none;
+  }
+  .dbCon li {
+    width: 25%;
+    border: none;
+  }
+  .dbCon li a {
+    font-size: 0.75rem;
+    line-height: 2rem;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 0.8rem;
+    border-right: 1px solid grey;
+    box-sizing: border-box;
+    transition: 0.3s;
+  }
+  .dbCon li a:hover {
+    color: #fff;
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
+  .dbSearch {
+    width: 100%;
+    height: 7rem;
+    position: relative;
+    top: 0;
+    background-color: #00000000;
+  }
+  .dbGo {
+    width: 90%;
+    height: 2.5rem;
+  }
+  .dbGo .magnify {
+    height: 100%;
+    margin-right: 0.5rem;
+  }
+  .dbGo .magnify img {
+    width: 60%;
+  }
+  .dbSearch .dbClose {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dbCon {
+    display: none;
+  }
+}

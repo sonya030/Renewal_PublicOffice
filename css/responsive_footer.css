@@ -1,0 +1,150 @@
+@media screen and (max-width: 780px) {
+  body {
+    width: 100%;
+    max-width: 780px;
+  }
+  .inner {
+    width: 90%;
+    margin: auto;
+  }
+  /* footerTop */
+  .footerTop {
+    box-sizing: border-box;
+  }
+  .footerTop_inner {
+  }
+  .footerNav {
+    width: 100%;
+  }
+  .sponsered01 {
+    display: none;
+  }
+  /* footerBottom */
+  .footerBottom {
+    padding: 2rem 0;
+  }
+  .footerBottom_inner {
+    flex-direction: column;
+  }
+  /* left */
+  .bottomLeft {
+    width: 100%;
+  }
+  .logo {
+    width: 20%;
+    background-size: contain;
+    background-position: center;
+  }
+  .footerInfo {
+    width: 80%;
+  }
+  .linked {
+    height: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  .iconBox {
+    width: 8rem;
+    margin-right: 1rem;
+  }
+  .iconBox a {
+    width: 1.5rem;
+  }
+  .sponsered02 {
+    display: block;
+    width: 10rem;
+    height: inherit;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 0 3px gray;
+    border-radius: 0.5rem;
+  }
+  .footerSwiper02 {
+    width: 65%;
+    height: inherit;
+    margin: 0;
+    border-radius: 0.3rem;
+  }
+  .footerSwiper02 .swiper-wrapper {
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+  }
+  .footerSwiper02 .swiper-wrapper .swiper-slide {
+    width: 5rem;
+    height: inherit;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .footerSwiper02 .swiper-wrapper .swiper-slide a {
+    width: inherit;
+    height: inherit;
+    box-sizing: border-box;
+  }
+  .footerSwiper02 .swiper-wrapper .swiper-slide a img {
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    padding: 0.2rem;
+  }
+  .sponsered02 .swiper-button-next {
+    right: 5%;
+    background: url(../img/footerBottom_nextBtn.svg) no-repeat 50%;
+    background-size: 60%;
+  }
+  .sponsered02 .swiper-button-prev {
+    left: 70%;
+    background: url(../img/footerBottom_prevBtn.svg) no-repeat 50%;
+    background-size: 60%;
+  }
+
+  .sponsered02 .swiper-button-next,
+  .sponsered02 .swiper-button-prev {
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    top: 110%;
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+    transition: 0.3s;
+  }
+  .sponsered02 .swiper-button-next::after,
+  .sponsered02 .swiper-button-prev::after {
+    opacity: 0;
+  }
+  .sponsered02 .swiper-button-next:hover,
+  .sponsered02 .swiper-button-prev:hover {
+    box-shadow: 0 0 3px #000;
+  }
+
+  /* right */
+  .bottomRight {
+    width: 100%;
+  }
+  .relateGroup {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  .relateGov,
+  .relateSite,
+  .govBtn,
+  .siteBtn,
+  .govBtn button,
+  .siteBtn button {
+    margin: auto;
+  }
+  .relateSite {
+    margin-top: 1rem;
+  }
+  .govSub,
+  .siteSub {
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .webMark {
+    display: none;
+  }
+}

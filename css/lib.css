@@ -1,0 +1,191 @@
+@import url("https://cdn.jsdelivr.net/gh/webfontworld/SaenggeoJincheon/SaenggeoJincheon.css");
+
+.lib {
+  width: 100%;
+  max-width: 1980px;
+  background: url(../img/sectionLibBg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.lib_inner {
+}
+.lib_inner h4 {
+  font-family: "SaenggeoJincheon";
+  font-size: 2.75rem;
+  text-align: center;
+  padding: 3rem 0;
+}
+.libMenu {
+  width: 95%;
+  margin: auto;
+}
+.libCon {
+  width: inherit;
+  margin: auto;
+}
+.libCon .add {
+  width: 100%;
+  display: block;
+  text-align: right;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #757575;
+  padding: 1rem 0;
+}
+.libCon .add:hover {
+  color: #000;
+}
+.libBoxes {
+  display: flex;
+  justify-content: space-between;
+}
+.libBox {
+  width: 23%;
+  height: 15.625rem;
+  border-radius: 1.25rem;
+  border: 5px solid transparent;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15);
+  margin-bottom: 3rem;
+  transition: 0.3s;
+}
+.libBox:hover {
+  border: 5px solid transparent;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.15) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(221deg, #3a5c02, #99b463);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  animation: lib 1s infinite;
+}
+
+@keyframes lib {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.libHead {
+  margin-top: 1rem;
+  padding-left: 0.6rem;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  background-image: url(../img/libTag02.svg);
+  background-repeat: no-repeat;
+  color: #fff;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  transition: 0.5s;
+}
+.libBox:hover .libHead {
+  background-image: url(../img/libTag-hover.svg);
+}
+.libText {
+  width: 80%;
+  margin: 1rem auto;
+}
+.libText strong {
+  font-weight: 600;
+}
+.libText p {
+  height: 6rem;
+  line-height: 1.2;
+  font-weight: 300;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  margin: 1rem 0;
+}
+.libText a {
+  display: block;
+  text-align: right;
+  font-size: 0.875rem;
+  color: #000;
+}
+.libText a small {
+  font-weight: 400;
+  transition: 0.2s;
+}
+.libText a small:hover {
+  font-weight: 600;
+  animation: small 1.3s infinite;
+}
+
+@keyframes small {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  body {
+    width: 100%;
+    max-width: 780px;
+  }
+  .lib {
+    background-image: url(../img/sectionLibBg-tab.svg);
+  }
+  .lib_inner h4 {
+    padding-bottom: 2rem;
+  }
+  .libMenu {
+  }
+  .libCon {
+    margin: auto;
+  }
+  .libBoxes {
+  }
+  .libBox {
+    width: 47%;
+    height: 12rem;
+  }
+  .libText {
+    margin: 0.5rem auto;
+  }
+  .libText p {
+    height: 4rem;
+    line-height: 1.3;
+    margin: 0.5rem 0;
+    -webkit-line-clamp: 3;
+  }
+  .lB03,
+  .lB04 {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  body {
+    width: 100%;
+    max-width: 450px;
+  }
+  .lib {
+    background-image: url(../img/sectionLibBg-mo.svg);
+  }
+  .lib_inner h4 {
+    font-size: 2.3rem;
+  }
+  .libCon {
+    width: 70%;
+    margin: auto;
+  }
+  .libBox {
+    width: 100%;
+  }
+  .lB02 {
+    display: none;
+  }
+}

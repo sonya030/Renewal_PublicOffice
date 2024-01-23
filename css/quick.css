@@ -1,0 +1,34 @@
+#quickMenu {
+  position: fixed;
+  right: 5%;
+  bottom: 10%;
+  opacity: 0;
+  transform: translateX(1300px);
+  transition: 0.8s;
+  z-index: 15;
+}
+
+#quickMenu.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media screen and (max-width: 780px) {
+  #quickMenu {
+    right: -5%;
+  }
+  #quickMenu img {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .edu,
+  .mailing,
+  .translate,
+  .report {
+    display: none;
+  }
+  #quickMenu {
+    z-index: 200;
+  }
+}

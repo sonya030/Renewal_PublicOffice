@@ -1,0 +1,43 @@
+@media screen and (max-width: 450px) {
+  .footerTop {
+    height: 13.25rem;
+  }
+  .footerTop_inner {
+    padding: 1.6rem 0;
+    box-sizing: border-box;
+  }
+  .footerNav {
+    height: inherit;
+    flex-direction: column;
+  }
+  .logo {
+    display: none;
+  }
+  .footerInfo {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .footerInfo small {
+    font-size: 0.6rem;
+  }
+  .linked {
+    height: 6rem;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .iconBox {
+    margin: auto;
+    height: 2rem;
+  }
+  .sponsered02 {
+    margin: 1rem auto;
+    height: 2rem;
+  }
+  .sponsered02 .swiper-button-next,
+  .sponsered02 .swiper-button-prev {
+    top: 90%;
+  }
+}
