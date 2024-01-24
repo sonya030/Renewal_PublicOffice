@@ -7,9 +7,8 @@
 ## ✒ 프로젝트 설명
 
 우리 고전의 현대화를 통해 문화 정체성을 확립하고, 문화 자원을 구축하고자 제작된 한국고전번역원 웹 사이트를 리뉴얼한 프로젝트입니다.<br/><br/>
-한국고전번역원에서 제공하는 고전번역서와 각종 DB자료를 남녀노소가 편안하게 즐겨찾을 수 있는 사이트로 제작하기 위해 기존의 
-<br/><br/>
-<img src="https://private-user-images.githubusercontent.com/148966629/299141255-efdc06e8-4f44-4d86-930f-98651b3ee927.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNTcyNTksIm5iZiI6MTcwNjA1Njk1OSwicGF0aCI6Ii8xNDg5NjY2MjkvMjk5MTQxMjU1LWVmZGMwNmU4LTRmNDQtNGQ4Ni05MzBmLTk4NjUxYjNlZTkyNy5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMDQyMzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NTc5ZmVhODU2ZGUzN2I1NmMyNGU5Njk2ZTJmMGE3MmUwYzY4NDAyMzQ2OWE5YjdkNzMxN2U2NGFmZjVlN2Q4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.55F8RER4LBrrLU3HN3MjT7Ht2VVGPsKZJtsRJLwQwd4"/>
+한국고전번역원에서 제공하는 고전번역서와 각종 DB자료를 남녀노소가 편안하게 즐겨찾을 수 있는 사이트로 제작하기 위해 기존의 <b>정적인</b> 
+
 
 <!--
 #신나는 #귀여운 #신비로운 세 가지의 해시태그를 컨셉으로 지정하였습니다.
