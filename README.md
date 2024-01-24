@@ -19,6 +19,7 @@
 <img src="https://private-user-images.githubusercontent.com/148966629/299155582-54df6f7b-c12a-43ca-8984-0b1b15905a8f.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNjI2MTgsIm5iZiI6MTcwNjA2MjMxOCwicGF0aCI6Ii8xNDg5NjY2MjkvMjk5MTU1NTgyLTU0ZGY2ZjdiLWMxMmEtNDNjYS04OTg0LTBiMWIxNTkwNWE4Zi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMjExNThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYzk4MDk4Y2JmN2RmNzM0OTllMTlkMWJjZjBjYzM0YjFmMzNmYjM1ODdlZDg2ZDY5YzNkNTQ4MDU3YWFlM2RmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.43qoC-lcu7UrKnL8DkE3VRNXFJf1XwriCaFcRvA-oA0">
 - 사이트 리뉴얼 시 사용될 탭메뉴와 버튼 등을 컬러시스템을 활용하여 직접 제작하였습니다.
 <br/><br/>
+
 > - 메인페이지는 다양한 정보를 효율적으로 배치하기 위해  <b>슬라이드, 탭 메뉴 등 동적 효과</b>를 부여하고 있습니다.
 > - 메인페이지와 두 개의 서브페이지(로그인, 공지사항)로 구성되어있습니다.
 > - 메인페이지와 서브페이지 모두 데스크탑(1980px), 태블릿(780px), 모바일(450px)로 제작하였습니다. 
