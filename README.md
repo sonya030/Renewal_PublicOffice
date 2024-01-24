@@ -21,11 +21,11 @@
 <br/><br/>
 
 > - 메인페이지는 다양한 정보를 효율적으로 배치하기 위해  <b>슬라이드, 탭 메뉴 등 동적 효과</b>를 부여하고 있습니다.
-> - 메인페이지와 두 개의 서브페이지(로그인, 공지사항)로 구성되어있습니다.
-> - 메인페이지와 서브페이지 모두 데스크탑(1980px), 태블릿(780px), 모바일(450px)로 제작하였습니다. 
+> - 메인페이지와 <b>두 개의 서브페이지(로그인, 공지사항)</b>로 구성되어있습니다.
+> - 메인페이지와 서브페이지 모두 <b>데스크탑(1980px), 태블릿(780px), 모바일(450px)</b>로 제작하였습니다. 
 
 
-<!--
+
 ## 💻 개발 환경
 
 - 개발 환경 : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
@@ -33,6 +33,7 @@
 - 사용된 기술 :
   <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white">
 
+<!--
 ## 🛠️ 페이지 특성
 
 - Slick 슬라이드
