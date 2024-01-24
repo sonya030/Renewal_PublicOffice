@@ -11,14 +11,12 @@
 기존의 <span>$\bf{\large{\color{#99B463}정적인}}$</span> 사이트의 분위기를 유지하면서 보다 <span>$\bf{\large{\color{#99B463}생동감}}$</span> 있게 리뉴얼 하고자 <p>$\bf{\large{\color{#5D8B22}💚자연적인}}$</p> <p>$\bf{\large{\color{#5D8B22}💚편리한}}$</p><p>$\bf{\large{\color{#5D8B22}💚동양적인}}$</p><p>$\bf{\large{\color{#5D8B22}💚수수한}}$</p>네가지의 키워드를 선정하여 프로젝트를 진행하였습니다.
 <br/><br/><br/><br/>
 - 기존 홈페이지의 그린 컬러를 모티브로 하여 주조색은 <span>$\bf{\large{\color{#99B463}DarkOilveGreen}}$</span> 컬러로 지정하고, 보조색과 강조색 또한 명도와 채도를 낮춘 그린컬러로 컬러시스템을 정립하였습니다. 
-
+<img src="https://private-user-images.githubusercontent.com/148966629/299152908-4294ca0e-aafe-4e9c-8d8c-a253e38727c6.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNjE2MzYsIm5iZiI6MTcwNjA2MTMzNiwicGF0aCI6Ii8xNDg5NjY2MjkvMjk5MTUyOTA4LTQyOTRjYTBlLWFhZmUtNGU5Yy04ZDhjLWEyNTNlMzg3MjdjNi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMTU1MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNjgyMjg4ODVlYzNhNWQ1YmYxYzc4ZGUwNTZlZjg2MDE0NjkzNWZjZjBmZWUxM2E0ZDg4NjY4Y2Y5M2Q5MzA1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.bujVZYfFeZHSTNbB7jhFnmOhX1-JD4Q_lJBLwPLmWVs"/>
 푸른 색상에서 크게 벗어나지 않되 좀 더 눈이 편안하고 고급스러운 느낌을 줄 수 있는 '클라인 블루' 색상을 메인 컬러로 지정하고, 블루컬러의 보색인 주황계열의 색상을 포인트 컬러로 사용하고 있습니다.
 - 메인 페이지에서 홈페이지가 제공하는 다양한 정보들을 효율적으로 배치하기 위해 슬라이드, 탭 메뉴 등 동적 효과를 부여하고 있습니다.
 - 메인페이지와 두 개의 서브페이지(티켓 예매, 안전수칙)로 구성되어있습니다.
 
-| 섹션1 : 메인비주얼                                                                                                      |
-| :---------------------------------------------------------------------------------------------------------------------- |
-| ![busanMain](https://github.com/Isabella-Kim/SeaLifeBusanRenewal/assets/139948934/d488b702-c85d-4d82-a76d-cd93c4069ac1) |
+
 <!--
 ## 💻 개발 환경
 
