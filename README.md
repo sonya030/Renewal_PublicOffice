@@ -14,7 +14,6 @@
 - 기존 홈페이지의 그린 컬러를 모티브로 하여 주조색은 <span>$\bf{\large{\color{#556b2f}DarkOilveGreen}}$</span> 컬러로 지정하고, 보조색과 강조색 또한 명도와 채도를 낮춘 그린컬러로 컬러시스템을 정립하였습니다.
 <br/><br/>
 ![typo](https://github.com/sonya030/Renewal_PublicOffice/assets/148966629/c2faa2f0-e092-4acf-9357-64e6cdbc7b02)
-/>
 - 메인 서체는 고딕서체인 <b>노토산스</b>로 선정하여 가독성을 높이고, 섹션의 타이틀 서체는 강조가 되도록 볼드한 서체인 <b>생거진천</b>을 사용하였습니다. 그리고 메인 슬라이드 배너의 서체는 사이트의 정적이고 동양적인 분위기를 연출할 수 있도록 명조체인 <b>경기바탕</b>을 사용하여 디자인하였습니다.
 <br/><br/>
 ![btn](https://github.com/sonya030/Renewal_PublicOffice/assets/148966629/54df6f7b-c12a-43ca-8984-0b1b15905a8f)
