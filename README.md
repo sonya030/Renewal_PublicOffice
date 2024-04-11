@@ -17,7 +17,7 @@
 />
 - 메인 서체는 고딕서체인 <b>노토산스</b>로 선정하여 가독성을 높이고, 섹션의 타이틀 서체는 강조가 되도록 볼드한 서체인 <b>생거진천</b>을 사용하였습니다. 그리고 메인 슬라이드 배너의 서체는 사이트의 정적이고 동양적인 분위기를 연출할 수 있도록 명조체인 <b>경기바탕</b>을 사용하여 디자인하였습니다.
 <br/><br/>
-<img src="https://private-user-images.githubusercontent.com/148966629/299155582-54df6f7b-c12a-43ca-8984-0b1b15905a8f.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDYwNjI2MTgsIm5iZiI6MTcwNjA2MjMxOCwicGF0aCI6Ii8xNDg5NjY2MjkvMjk5MTU1NTgyLTU0ZGY2ZjdiLWMxMmEtNDNjYS04OTg0LTBiMWIxNTkwNWE4Zi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyNFQwMjExNThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iYzk4MDk4Y2JmN2RmNzM0OTllMTlkMWJjZjBjYzM0YjFmMzNmYjM1ODdlZDg2ZDY5YzNkNTQ4MDU3YWFlM2RmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.43qoC-lcu7UrKnL8DkE3VRNXFJf1XwriCaFcRvA-oA0">
+![btn](https://github.com/sonya030/Renewal_PublicOffice/assets/148966629/54df6f7b-c12a-43ca-8984-0b1b15905a8f)
 - 사이트 리뉴얼 시 사용될 탭메뉴와 버튼 등을 컬러시스템을 활용하여 직접 제작하였습니다.
 <br/><br/>
 
